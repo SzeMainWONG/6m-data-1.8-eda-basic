@@ -160,5 +160,5 @@ df['price_clean'] = df['price_raw'].str.extract(r'(\d+\.?\d*)').astype(float)
 3. **Transformation is prep work**: clean column names, consistent types, and standardised formats save hours of debugging later.
 
 ### Next Steps
-- **Post-Class:** Complete the [post-class.md](./post-class.md) exercises — 5 Pandas challenges + a cleaning scenario (45–60 min).
+- **Post-Class:** Complete the [assignment.md](./assignment.md) exercises — 5 Pandas challenges + a cleaning scenario (45–60 min).
 - **Next Lesson:** Lesson 1.9 builds on today's skills with advanced data wrangling — time series, merges, and pivot tables.
